@@ -1,0 +1,2196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curve Resturents</title>
+    <link rel="icon" type="image/x-icon" href="img/fevi.png">
+    <link href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.css"
+        integrity="sha512-tx5+1LWHez1QiaXlAyDwzdBTfDjX07GMapQoFTS74wkcPMsI3So0KYmFe6EHZjI8+eSG0ljBlAQc3PQ5BTaZtQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Navbar Started here -->
+    <nav class="navbar navbar-expand-lg bg-dark border-bottom border-light">
+        <div class="container-fluid">
+            <a class="navbar-brand text-light" href="#">
+                <img src="./img/location.png" alt="logo" class="pr-1" />Curve</a>
+            <button class="navbar-toggler bg-light text-dark" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon text-dark fs-5">
+                    <i class="fa-solid fa-bars fs-3"></i>
+                </span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 text-light">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-light fs-6 fw-medium" href="#" role="button"
+                            data-bs-toggle="dropdown">Noida
+                            <span class="fw-light drop-addr mx-2">Kaka House, 4Th Floor</span></a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Link</a></li>
+                            <li><a class="dropdown-item" href="#">Another link</a></li>
+                            <li><a class="dropdown-item" href="#">A third link</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex position-relative" role="search">
+                    <input class="form-control me-2 rounded-pill response-view" type="search" placeholder="Search"
+                        aria-label="Search" />
+                    <span class="position-absolute search-btn">
+                        <i class="fa fa-search"></i>
+                    </span>
+                </form>
+                <div class="user-icon response-view">
+                    <img src="./img/download.jpg" alt="" class="rounded-circle my-1" />
+                </div>
+                <p class="rounded-circle pl-2 bg-light icons pt-1 response-view">
+                    <img src="./img/translation.png" alt="" />
+                </p>
+                <p class="rounded-circle bg-light icons response-view">
+                    <i class="fa-solid fa-bell"></i>
+                </p>
+                <p class="rounded-pill bg-light icons d-flex response-view">
+                    <i class="bx bxs-shopping-bag"></i>
+                    <span class="d-inline-block">(5) items</span>
+                </p>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar Ends here -->
+
+    <!-- Banner started here -->
+    <section class="banner-section position-relative">
+        <img src="./img/banner.jpg" alt="Banner" />
+        <h4 class="header-sec text-center position-absolute fw-normal">
+            Find <span class="fw-bold">Healthy</span> and
+            <span class="fw-bold">Favourite</span> Food Near You
+        </h4>
+    </section>
+    <!-- Banner ends here -->
+
+    <!-- Navbar on Banner starts here-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent position-relative">
+        <div class="container position-absolute second-nav">
+            <a class="navbar-brand text-light order-food pic1" href="#">
+                <span>Order Food</span>
+            </a>
+            <a class="navbar-brand text-light order-food pic2" href="#">
+                <span>Order Supplements</span>
+            </a>
+            <a class="navbar-brand text-light order-food pic3" href="#"><span>Food Package</span></a>
+            <a class="navbar-brand text-light order-food pic4" href="#"><span>Gym Package</span></a>
+            <a class="navbar-brand text-light order-food pic5" href="#"><span>Order Grocery</span></a>
+        </div>
+    </nav>
+    <!-- Navbar ends here -->
+
+    <!-- two-Silder section started -->
+    <section class="twoSlider">
+        <div class="container">
+            <div class="mySlides">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 col-6">
+                        <div class="card position-relative">
+                            <div class="card-img">
+                                <img src="./img/food.jpg" class="img-fluid"  alt="slider"/>
+                            </div>
+                            <div
+                                class="card-img-overlay fw-bold fs-3 d-flex flex-column justify-content-center text-left">
+                                KWD 200 off<br />
+                                <span class="fs-5 fw-medium text-dark">
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing
+                                    elit.
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-6">
+                        <div class="card position-relative">
+                            <div class="card-img">
+                                <img src="./img/food2.jpg" class="img-fluid" alt="slider"/>
+                            </div>
+                            <div
+                                class="card-img-overlay fw-bold fs-3 d-flex flex-column justify-content-center text-left">
+                                KWD 200 off<br />
+                                <span class="fs-5 fw-medium text-dark">
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing
+                                    elit.
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mySlides">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 col-6">
+                        <div class="card position-relative">
+                            <div class="card-img">
+                                <img src="./img/food2.jpg" class="img-fluid" alt="slider"/>
+                            </div>
+                            <div
+                                class="card-img-overlay fw-bold fs-3 d-flex flex-column justify-content-center text-left">
+                                KWD 200 off<br />
+                                <span class="fs-5 fw-medium text-dark">
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing
+                                    elit.
+                                </span>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-6">
+                        <div class="card position-relative">
+                            <div class="card-img">
+                                <img src="./img/food.jpg" class="img-fluid" alt="slider"/>
+                            </div>
+                            <div
+                                class="card-img-overlay fw-bold fs-3 d-flex flex-column justify-content-center text-left">
+                                KWD 200 off<br />
+                                <span class="fs-5 fw-medium text-dark">
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing
+                                    elit.
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center my-3 activity">
+                <span class="dot" onclick="plusDivs(-1)"></span>
+                <span class="dot" onclick="plusDivs(1)"></span>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- two-Silder section Ended -->
+
+    <!-- Resturents section started here -->
+    <div class="container">
+        <div class="resturent_heading my-3 d-flex justify-content-between">
+            <h2 class="fs-2">RESTAURANTS</h2>
+            <div class="bg-light py-2 px-3  text-center rounded-pill">
+                <a class="text-decoration-none text-secondary" href="#" target="_self">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#32a862"
+                        class="bi bi-funnel-fill" viewBox="0 0 16 16">
+                        <path
+                            d="M1.5 1.5A.5.5 0 0 1 2 1h12a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.128.334L10 8.692V13.5a.5.5 0 0 1-.342.474l-3 1A.5.5 0 0 1 6 14.5V8.692L1.628 3.834A.5.5 0 0 1 1.5 3.5z" />
+                    </svg>
+                    <span class="">Sort By</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- Resturents section Ended here -->
+
+    <!-- Top Rated Resturents Section Started Here -->
+    <section class="top-rated-rasturents py-3">
+        <div id="carouselExampleControls" class="carousel carousel-dark" data-bs-ride="carousel">
+            <div class="container">
+                <div class="d-flex justify-content-between me-3">
+                    <h3 class="text-uppercase mt-2 fs-3 mb-3">Top Rated Near You</h3>
+                    <div class="mt-2 d-flex">
+                        <a class="text-decoration-none text-success fs-6 px-4 mb-0 mt-2" href="" target="_self">See
+                            All</a>
+                        <div class="btn-section">
+                            <div class=" d-flex justify-content-around">
+                                <button
+                                    class="carousel-control-prev btn btn-light text-center rounded-circle  px-2 me-3"
+                                    type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#000"
+                                        class="bi bi-arrow-left" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd"
+                                            d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8" />
+                                    </svg>
+                                </button>
+                                <button class="carousel-control-next btn btn-light text-center rounded-circle  px-2"
+                                    type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#000"
+                                        class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd"
+                                            d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 px-0">
+                        <div class="carousel-inner my-3">
+                            <div class="carousel-item active">
+                                <div class="card card_radius pb-0 me-3">
+                                    <div class="image-container">
+                                        <img src="./img/burger.jpeg" alt="Burger"
+                                            class="w-100 card_radius_img img-hover-zoom" />
+                                        <div class="wishlist">
+                                            <a href="#">
+                                                <div class="text-center cicle_heart bg-light rounded-circle pt-1">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                                        fill="#000" class="bi bi-heart" viewBox="0 0 16 16">
+                                                        <path
+                                                            d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15" />
+                                                    </svg>
+                                                </div>
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+
+                                        <h5 class="card-title">Mcdonals's</h5>
+                                        <div
+                                            class="d-flex justify-content-between align-items-start fs-8 fw-medium category">
+                                            <div class="bg-light py-2 px-3 text-center rounded-pill">
+                                                <p class="mb-0">North Indian</p>
+                                            </div>
+                                            <div class="bg-light py-2 px-2 text-center rounded-pill">
+                                                <p class="mb-0">Fast Food</p>
+                                            </div>
+                                            <div class="bg-light py-2 px-3 text-center rounded-pill">
+                                                <p class="mb-0">Deserts</p>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex mt-3">
+                                            <p class="px-2 border-2 border-end text-success fs-7 fw-medium">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                    fill="#32a862" class="bi bi-star-fill mb-1" viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                                </svg> <span class="rating">4.3</span>
+                                            </p>
+                                            <p class="px-2 border-2 border-end text-dark fs-7 fw-medium">3.9 Kms</p>
+                                            <p class="px-2 text-dark fs-7 fw-medium">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                    fill="#32a862" class="bi bi-truck" viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5zm1.294 7.456A2 2 0 0 1 4.732 11h5.536a2 2 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456M12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2" />
+                                                </svg> <span class="rating">KWD 20</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="card card_radius pb-0 me-3">
+                                    <div class="image-container">
+                                        <img src="./img/food2.jpeg" alt="Burger"
+                                            class="w-100 card_radius_img img-hover-zoom" />
+                                        <div class="wishlist">
+                                            <a href="#">
+                                                <div class="text-center cicle_heart bg-light rounded-circle pt-1">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                                        fill="#000" class="bi bi-heart" viewBox="0 0 16 16">
+                                                        <path
+                                                            d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15" />
+                                                    </svg>
+                                                </div>
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+
+                                        <h5 class="card-title">Mcdonals's</h5>
+                                        <div
+                                            class="d-flex justify-content-between align-items-start fs-8 fw-medium category">
+                                            <div class="bg-light py-2 px-3 text-center rounded-pill">
+                                                <p class="mb-0">North Indian</p>
+                                            </div>
+                                            <div class="bg-light py-2 px-2 text-center rounded-pill">
+                                                <p class="mb-0">Fast Food</p>
+                                            </div>
+                                            <div class="bg-light py-2 px-3 text-center rounded-pill">
+                                                <p class="mb-0">Deserts</p>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex mt-3">
+                                            <p class="px-2 border-2 border-end text-success fs-7 fw-medium">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                    fill="#32a862" class="bi bi-star-fill mb-1" viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                                </svg> <span class="rating">4.3</span>
+                                            </p>
+                                            <p class="px-2 border-2 border-end text-dark fs-7 fw-medium">3.9 Kms</p>
+                                            <p class="px-2 text-dark fs-7 fw-medium">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                    fill="#32a862" class="bi bi-truck" viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5zm1.294 7.456A2 2 0 0 1 4.732 11h5.536a2 2 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456M12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2" />
+                                                </svg> <span class="rating">KWD 20</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="card card_radius pb-0 me-3 mb-3">
+                                    <div class="image-container">
+                                        <img src="./img/food-3.jpeg" alt="Burger"
+                                            class="w-100 card_radius_img img-hover-zoom" />
+                                        <div class="wishlist">
+                                            <a href="#">
+                                                <div class="text-center cicle_heart bg-light rounded-circle pt-1">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                                        fill="#000" class="bi bi-heart" viewBox="0 0 16 16">
+                                                        <path
+                                                            d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15" />
+                                                    </svg>
+                                                </div>
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+
+                                        <h5 class="card-title">Mcdonals's</h5>
+                                        <div
+                                            class="d-flex justify-content-between align-items-start fs-8 fw-medium category">
+                                            <div class="bg-light py-2 px-3 text-center rounded-pill">
+                                                <p class="mb-0">North Indian</p>
+                                            </div>
+                                            <div class="bg-light py-2 px-2 text-center rounded-pill">
+                                                <p class="mb-0">Fast Food</p>
+                                            </div>
+                                            <div class="bg-light py-2 px-3 text-center rounded-pill">
+                                                <p class="mb-0">Deserts</p>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex mt-3">
+                                            <p class="px-2 border-2 border-end text-success fs-7 fw-medium">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                    fill="#32a862" class="bi bi-star-fill mb-1" viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                                </svg> <span class="rating">4.3</span>
+                                            </p>
+                                            <p class="px-2 border-2 border-end text-dark fs-7 fw-medium">3.9 Kms</p>
+                                            <p class="px-2 text-dark fs-7 fw-medium">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                    fill="#32a862" class="bi bi-truck" viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5zm1.294 7.456A2 2 0 0 1 4.732 11h5.536a2 2 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456M12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2" />
+                                                </svg> <span class="rating">KWD 20</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="card card_radius pb-0 me-3">
+                                    <div class="image-container">
+                                        <img src="./img/food-4.jpeg" alt="Burger"
+                                            class="w-100 card_radius_img img-hover-zoom" />
+                                        <div class="wishlist">
+                                            <a href="#">
+                                                <div class="text-center cicle_heart bg-light rounded-circle pt-1">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                                        fill="#000" class="bi bi-heart" viewBox="0 0 16 16">
+                                                        <path
+                                                            d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15" />
+                                                    </svg>
+                                                </div>
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+
+                                        <h5 class="card-title">Mcdonals's</h5>
+                                        <div
+                                            class="d-flex justify-content-between align-items-start fs-8 fw-medium category">
+                                            <div class="bg-light py-2 px-3 text-center rounded-pill">
+                                                <p class="mb-0">North Indian</p>
+                                            </div>
+                                            <div class="bg-light py-2 px-2 text-center rounded-pill">
+                                                <p class="mb-0">Fast Food</p>
+                                            </div>
+                                            <div class="bg-light py-2 px-3 text-center rounded-pill">
+                                                <p class="mb-0">Deserts</p>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex mt-3">
+                                            <p class="px-2 border-2 border-end text-success fs-7 fw-medium">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                    fill="#32a862" class="bi bi-star-fill mb-1" viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                                </svg> <span class="rating">4.3</span>
+                                            </p>
+                                            <p class="px-2 border-2 border-end text-dark fs-7 fw-medium">3.9 Kms</p>
+                                            <p class="px-2 text-dark fs-7 fw-medium">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                    fill="#32a862" class="bi bi-truck" viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5zm1.294 7.456A2 2 0 0 1 4.732 11h5.536a2 2 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456M12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2" />
+                                                </svg> <span class="rating">KWD 20</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="card card_radius pb-0 me-3">
+                                    <div class="image-container">
+                                        <img src="./img/food-5.jpeg" alt="Burger"
+                                            class="w-100 card_radius_img img-hover-zoom" />
+                                        <div class="wishlist">
+                                            <a href="#">
+                                                <div class="text-center cicle_heart bg-light rounded-circle pt-1">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                                        fill="#000" class="bi bi-heart" viewBox="0 0 16 16">
+                                                        <path
+                                                            d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15" />
+                                                    </svg>
+                                                </div>
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+
+                                        <h5 class="card-title">Mcdonals's</h5>
+                                        <div
+                                            class="d-flex justify-content-between align-items-start fs-8 fw-medium category">
+                                            <div class="bg-light py-2 px-3 text-center rounded-pill">
+                                                <p class="mb-0">North Indian</p>
+                                            </div>
+                                            <div class="bg-light py-2 px-2 text-center rounded-pill">
+                                                <p class="mb-0">Fast Food</p>
+                                            </div>
+                                            <div class="bg-light py-2 px-3 text-center rounded-pill">
+                                                <p class="mb-0">Deserts</p>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex mt-3">
+                                            <p class="px-2 border-2 border-end text-success fs-7 fw-medium">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                    fill="#32a862" class="bi bi-star-fill mb-1" viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                                </svg> <span class="rating">4.3</span>
+                                            </p>
+                                            <p class="px-2 border-2 border-end text-dark fs-7 fw-medium">3.9 Kms</p>
+                                            <p class="px-2 text-dark fs-7 fw-medium">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                    fill="#32a862" class="bi bi-truck" viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5zm1.294 7.456A2 2 0 0 1 4.732 11h5.536a2 2 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456M12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2" />
+                                                </svg> <span class="rating">KWD 20</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="card card_radius pb-0 me-3">
+                                    <div class="image-container">
+                                        <img src="./img/burger.jpeg" alt="Burger"
+                                            class="w-100 card_radius_img img-hover-zoom" />
+                                        <div class="wishlist">
+                                            <a href="#">
+                                                <div class="text-center cicle_heart bg-light rounded-circle pt-1">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                                        fill="#000" class="bi bi-heart" viewBox="0 0 16 16">
+                                                        <path
+                                                            d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15" />
+                                                    </svg>
+                                                </div>
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+
+                                        <h5 class="card-title">Mcdonals's</h5>
+                                        <div
+                                            class="d-flex justify-content-between align-items-start fs-8 fw-medium category">
+                                            <div class="bg-light py-2 px-3 text-center rounded-pill">
+                                                <p class="mb-0">North Indian</p>
+                                            </div>
+                                            <div class="bg-light py-2 px-2 text-center rounded-pill">
+                                                <p class="mb-0">Fast Food</p>
+                                            </div>
+                                            <div class="bg-light py-2 px-3 text-center rounded-pill">
+                                                <p class="mb-0">Deserts</p>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex mt-3">
+                                            <p class="px-2 border-2 border-end text-success fs-7 fw-medium">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                    fill="#32a862" class="bi bi-star-fill mb-1" viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                                </svg> <span class="rating">4.3</span>
+                                            </p>
+                                            <p class="px-2 border-2 border-end text-dark fs-7 fw-medium">3.9 Kms</p>
+                                            <p class="px-2 text-dark fs-7 fw-medium">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                    fill="#32a862" class="bi bi-truck" viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5zm1.294 7.456A2 2 0 0 1 4.732 11h5.536a2 2 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456M12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2" />
+                                                </svg> <span class="rating">KWD 20</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+    <!-- Top Rated Resturents Section Ended Here -->
+
+
+    <!-- In The spot light section started Here -->
+    <section class="spot-light-section py-3">
+        <div id="carouselSportLightControls" class="carousel" data-bs-ride="carousel">
+            <div class="container">
+                <div class="d-flex justify-content-between me-3">
+                    <h3 class="text-uppercase mt-2 fs-3 mb-3">In the spot light(featured)</h3>
+                    <div class="mt-2 d-flex">
+                        <a class="text-decoration-none text-success fs-6 px-4 mb-0 mt-2" href="" target="_self">See
+                            All</a>
+                        <div class="btn-section">
+                            <div class="d-flex justify-content-around">
+                                <button
+                                    class="carousel-control-prev btn btn-light text-center rounded-circle  px-2 me-3"
+                                    type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#000"
+                                        class="bi bi-arrow-left" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd"
+                                            d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8" />
+                                    </svg>
+                                </button>
+                                <button class="carousel-control-next btn btn-light text-center rounded-circle  px-2"
+                                    type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#000"
+                                        class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd"
+                                            d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 px-0">
+                        <div class="carousel-inner my-3">
+                            <div class="carousel-item active">
+                                <div class="card card_radius pb-0 me-3 mb-3">
+                                    <div class="image-container">
+                                        <div class="mask position-absolute card_btn_position z-1">
+                                            <div class="d-flex justify-content-start align-items-end">
+                                                <p><span
+                                                        class="badge bg-danger fs-7 fw-normal p-2 m-1 rounded-pill">Exclusive</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <img src="./img/spot_light-1.jpeg" alt="Burger"
+                                            class="w-100 card_radius_img img-hover-zoom" />
+                                        <div class="wishlist">
+                                            <a href="#">
+                                                <div class="text-center cicle_heart bg-light rounded-circle pt-1">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                                        fill="#000" class="bi bi-heart" viewBox="0 0 16 16">
+                                                        <path
+                                                            d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15" />
+                                                    </svg>
+                                                </div>
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Mcdonals's</h5>
+                                        <div
+                                            class="d-flex justify-content-between align-items-start fs-8 fw-medium category">
+                                            <div class="bg-light py-2 px-3 text-center rounded-pill">
+                                                <p class="mb-0">North Indian</p>
+                                            </div>
+                                            <div class="bg-light py-2 px-2 text-center rounded-pill">
+                                                <p class="mb-0">Fast Food</p>
+                                            </div>
+                                            <div class="bg-light py-2 px-3 text-center rounded-pill">
+                                                <p class="mb-0">Deserts</p>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex mt-3">
+                                            <p class="px-2 border-2 border-end text-success fs-7 fw-medium">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                    fill="#32a862" class="bi bi-star-fill mb-1" viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                                </svg> <span class="rating">4.3</span>
+                                            </p>
+                                            <p class="px-2 border-2 border-end text-dark fs-7 fw-medium">3.9 Kms</p>
+                                            <p class="px-2 text-dark fs-7 fw-medium">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                    fill="#32a862" class="bi bi-truck mb-1" viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5zm1.294 7.456A2 2 0 0 1 4.732 11h5.536a2 2 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456M12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2" />
+                                                </svg> <span class="rating">KWD 20</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <div class="card card_radius pb-0 me-3 mb-3">
+                                    <div class="image-container">
+                                        <div class="mask position-absolute card_btn_position z-1">
+                                            <div class="d-flex justify-content-start align-items-end">
+                                                <p><span
+                                                        class="badge bg-danger fs-7 fw-normal p-2 m-1 rounded-pill">Exclusive</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <img src="./img/spot_light-2.jpeg" alt="Burger"
+                                            class="w-100 card_radius_img img-hover-zoom" />
+                                        <div class="wishlist">
+                                            <a href="#">
+                                                <div class="text-center cicle_heart bg-light rounded-circle pt-1">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                                        fill="#000" class="bi bi-heart" viewBox="0 0 16 16">
+                                                        <path
+                                                            d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15" />
+                                                    </svg>
+                                                </div>
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Mcdonals's</h5>
+                                        <div
+                                            class="d-flex justify-content-between align-items-start fs-8 fw-medium category">
+                                            <div class="bg-light py-2 px-3 text-center rounded-pill">
+                                                <p class="mb-0">North Indian</p>
+                                            </div>
+                                            <div class="bg-light py-2 px-2 text-center rounded-pill">
+                                                <p class="mb-0">Fast Food</p>
+                                            </div>
+                                            <div class="bg-light py-2 px-3 text-center rounded-pill">
+                                                <p class="mb-0">Deserts</p>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex mt-3">
+                                            <p class="px-2 border-2 border-end text-success fs-7 fw-medium">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                    fill="#32a862" class="bi bi-star-fill mb-1" viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                                </svg> <span class="rating">4.3</span>
+                                            </p>
+                                            <p class="px-2 border-2 border-end text-dark fs-7 fw-medium">3.9 Kms</p>
+                                            <p class="px-2 text-dark fs-7 fw-medium">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                    fill="#32a862" class="bi bi-truck mb-1" viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5zm1.294 7.456A2 2 0 0 1 4.732 11h5.536a2 2 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456M12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2" />
+                                                </svg> <span class="rating">KWD 20</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="carousel-item">
+                                <div class="card card_radius pb-0 me-3 mb-3">
+                                    <div class="image-container">
+                                        <div class="mask position-absolute card_btn_position z-1">
+                                            <div class="d-flex justify-content-start align-items-end">
+                                                <p><span
+                                                        class="badge bg-danger fs-7 fw-normal p-2 m-1 rounded-pill">Exclusive</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <img src="./img/spot_light-3.jpeg" alt="Burger"
+                                            class="w-100 card_radius_img img-hover-zoom" />
+                                        <div class="wishlist">
+                                            <a href="#">
+                                                <div class="text-center cicle_heart bg-light rounded-circle pt-1">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                                        fill="#000" class="bi bi-heart" viewBox="0 0 16 16">
+                                                        <path
+                                                            d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15" />
+                                                    </svg>
+                                                </div>
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Mcdonals's</h5>
+                                        <div
+                                            class="d-flex justify-content-between align-items-start fs-8 fw-medium category">
+                                            <div class="bg-light py-2 px-3 text-center rounded-pill">
+                                                <p class="mb-0">North Indian</p>
+                                            </div>
+                                            <div class="bg-light py-2 px-2 text-center rounded-pill">
+                                                <p class="mb-0">Fast Food</p>
+                                            </div>
+                                            <div class="bg-light py-2 px-3 text-center rounded-pill">
+                                                <p class="mb-0">Deserts</p>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex mt-3">
+                                            <p class="px-2 border-2 border-end text-success fs-7 fw-medium">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                    fill="#32a862" class="bi bi-star-fill mb-1" viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                                </svg> <span class="rating">4.3</span>
+                                            </p>
+                                            <p class="px-2 border-2 border-end text-dark fs-7 fw-medium">3.9 Kms</p>
+                                            <p class="px-2 text-dark fs-7 fw-medium">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                    fill="#32a862" class="bi bi-truck mb-1" viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5zm1.294 7.456A2 2 0 0 1 4.732 11h5.536a2 2 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456M12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2" />
+                                                </svg> <span class="rating">KWD 20</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <div class="card card_radius pb-0 me-3  mb-3">
+                                    <div class="image-container">
+                                        <div class="mask position-absolute card_btn_position z-1">
+                                            <div class="d-flex justify-content-start align-items-end">
+                                                <p><span
+                                                        class="badge bg-danger fs-7 fw-normal p-2 m-1 rounded-pill">Exclusive</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <img src="./img/spot_light-4.jpeg" alt="Burger"
+                                            class="w-100 card_radius_img img-hover-zoom" />
+                                        <div class="wishlist">
+                                            <a href="#">
+                                                <div class="text-center cicle_heart bg-light rounded-circle pt-1">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                                        fill="#000" class="bi bi-heart" viewBox="0 0 16 16">
+                                                        <path
+                                                            d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15" />
+                                                    </svg>
+                                                </div>
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Mcdonals's</h5>
+                                        <div
+                                            class="d-flex justify-content-between align-items-start fs-8 fw-medium category">
+                                            <div class="bg-light py-2 px-3 text-center rounded-pill">
+                                                <p class="mb-0">North Indian</p>
+                                            </div>
+                                            <div class="bg-light py-2 px-2 text-center rounded-pill">
+                                                <p class="mb-0">Fast Food</p>
+                                            </div>
+                                            <div class="bg-light py-2 px-3 text-center rounded-pill">
+                                                <p class="mb-0">Deserts</p>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex mt-3">
+                                            <p class="px-2 border-2 border-end text-success fs-7 fw-medium">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                    fill="#32a862" class="bi bi-star-fill mb-1" viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                                </svg> <span class="rating">4.3</span>
+                                            </p>
+                                            <p class="px-2 border-2 border-end text-dark fs-7 fw-medium">3.9 Kms</p>
+                                            <p class="px-2 text-dark fs-7 fw-medium">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                    fill="#32a862" class="bi bi-truck mb-1" viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5zm1.294 7.456A2 2 0 0 1 4.732 11h5.536a2 2 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456M12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2" />
+                                                </svg> <span class="rating">KWD 20</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="carousel-item">
+                                <div class="card card_radius pb-0 me-3  mb-3">
+                                    <div class="image-container">
+                                        <div class="mask position-absolute card_btn_position z-1">
+                                            <div class="d-flex justify-content-start align-items-end">
+                                                <p><span
+                                                        class="badge bg-danger fs-7 fw-normal p-2 m-1 rounded-pill">Exclusive</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <img src="./img/spot_light-2.jpeg" alt="Burger"
+                                            class="w-100 card_radius_img img-hover-zoom" />
+                                        <div class="wishlist">
+                                            <a href="#">
+                                                <div class="text-center cicle_heart bg-light rounded-circle pt-1">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                                        fill="#000" class="bi bi-heart" viewBox="0 0 16 16">
+                                                        <path
+                                                            d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15" />
+                                                    </svg>
+                                                </div>
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Mcdonals's</h5>
+                                        <div
+                                            class="d-flex justify-content-between align-items-start fs-8 fw-medium category">
+                                            <div class="bg-light py-2 px-3 text-center rounded-pill">
+                                                <p class="mb-0">North Indian</p>
+                                            </div>
+                                            <div class="bg-light py-2 px-2 text-center rounded-pill">
+                                                <p class="mb-0">Fast Food</p>
+                                            </div>
+                                            <div class="bg-light py-2 px-3 text-center rounded-pill">
+                                                <p class="mb-0">Deserts</p>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex mt-3">
+                                            <p class="px-2 border-2 border-end text-success fs-7 fw-medium">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                    fill="#32a862" class="bi bi-star-fill mb-1" viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                                </svg> <span class="rating">4.3</span>
+                                            </p>
+                                            <p class="px-2 border-2 border-end text-dark fs-7 fw-medium">3.9 Kms</p>
+                                            <p class="px-2 text-dark fs-7 fw-medium">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                    fill="#32a862" class="bi bi-truck mb-1" viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5zm1.294 7.456A2 2 0 0 1 4.732 11h5.536a2 2 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456M12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2" />
+                                                </svg> <span class="rating">KWD 20</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <div class="card card_radius pb-0 me-3  mb-3">
+                                    <div class="image-container">
+                                        <img src="./img/burger.jpeg" alt="Burger"
+                                            class="w-100 card_radius_img img-hover-zoom" />
+                                        <div class="wishlist">
+                                            <a href="#">
+                                                <div class="text-center cicle_heart bg-light rounded-circle pt-1">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                                        fill="#000" class="bi bi-heart" viewBox="0 0 16 16">
+                                                        <path
+                                                            d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15" />
+                                                    </svg>
+                                                </div>
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+
+                                        <h5 class="card-title">Mcdonals's</h5>
+                                        <div
+                                            class="d-flex justify-content-between align-items-start fs-8 fw-medium category">
+                                            <div class="bg-light py-2 px-3 text-center rounded-pill">
+                                                <p class="mb-0">North Indian</p>
+                                            </div>
+                                            <div class="bg-light py-2 px-2 text-center rounded-pill">
+                                                <p class="mb-0">Fast Food</p>
+                                            </div>
+                                            <div class="bg-light py-2 px-3 text-center rounded-pill">
+                                                <p class="mb-0">Deserts</p>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex mt-3">
+                                            <p class="px-2 border-2 border-end text-success fs-7 fw-medium">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                    fill="#32a862" class="bi bi-star-fill mb-1" viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                                </svg> <span class="rating">4.3</span>
+                                            </p>
+                                            <p class="px-2 border-2 border-end text-dark fs-7 fw-medium">3.9 Kms</p>
+                                            <p class="px-2 text-dark fs-7 fw-medium">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                    fill="#32a862" class="bi bi-truck" viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5zm1.294 7.456A2 2 0 0 1 4.732 11h5.536a2 2 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456M12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2" />
+                                                </svg> <span class="rating">KWD 20</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- In The spot light section Ended Here -->
+
+    <!--  Quick pickup section started here -->
+
+    <section class="quick-pickup-section py-3">
+        <div id="carouselQuickPickupsControls" class="carousel carousel-dark" data-bs-ride="carousel">
+            <div class="container">
+                <div class="d-flex justify-content-between me-3">
+                    <h3 class="text-uppercase mt-2 fs-3 mb-3">Quick picks for you</h3>
+                    <div class="mt-2 d-flex">
+                        <a class="text-decoration-none text-success fs-6 px-4 mb-0 mt-2" href="" target="_self">See
+                            All</a>
+                        <div class="btn-section">
+                            <div class="d-flex justify-content-around">
+                                <button
+                                    class="carousel-control-prev btn btn-light text-center rounded-circle  px-2 me-3"
+                                    type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#000"
+                                        class="bi bi-arrow-left" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd"
+                                            d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8" />
+                                    </svg>
+                                </button>
+                                <button class="carousel-control-next btn btn-light text-center rounded-circle  px-2"
+                                    type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#000"
+                                        class="bi bi-arrow-right" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd"
+                                            d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="two-btn-section py-1">
+                    <button class="btn btn-delivery px-4 rounded-pill me-2 fs-6">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-truck-flatbed mb-1" viewBox="0 0 16 16">
+                            <path
+                                d="M11.5 4a.5.5 0 0 1 .5.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-4 0 1 1 0 0 1-1-1v-1h11V4.5a.5.5 0 0 1 .5-.5M3 11a1 1 0 1 0 0 2 1 1 0 0 0 0-2m9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2m1.732 0h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12v4a2 2 0 0 1 1.732 1" />
+                        </svg>
+                        <span>Delivery</span>
+                    </button>
+                    <button class="btn btn-delivery px-4 rounded-pill m-2 fs-6">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-handbag-fill mb-1" viewBox="0 0 16 16">
+                            <path
+                                d="M8 1a2 2 0 0 0-2 2v2H5V3a3 3 0 1 1 6 0v2h-1V3a2 2 0 0 0-2-2M5 5H3.36a1.5 1.5 0 0 0-1.483 1.277L.85 13.13A2.5 2.5 0 0 0 3.322 16h9.355a2.5 2.5 0 0 0 2.473-2.87l-1.028-6.853A1.5 1.5 0 0 0 12.64 5H11v1.5a.5.5 0 0 1-1 0V5H6v1.5a.5.5 0 0 1-1 0z" />
+                        </svg>
+                        <span>Takeaway</span>
+                    </button>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12 px-0">
+                        <div class="carousel-inner my-3">
+                            <div class="carousel-item active">
+                                <div class="card card_radius pb-0 me-3 mb-3">
+                                    <div class="image-container">
+                                        <img src="./img/Quick-1.jpeg" alt="Burger"
+                                            class="w-100 card_radius_img img-hover-zoom" />
+                                        <div class="wishlist">
+                                            <a href="#">
+                                                <div class="text-center cicle_heart bg-light rounded-circle pt-1">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                                        fill="#000" class="bi bi-heart" viewBox="0 0 16 16">
+                                                        <path
+                                                            d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15" />
+                                                    </svg>
+                                                </div>
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Mcdonals's</h5>
+                                        <div
+                                            class="d-flex justify-content-between align-items-start fs-8 fw-medium category">
+                                            <div class="bg-light py-2 px-3 text-center rounded-pill">
+                                                <p class="mb-0">North Indian</p>
+                                            </div>
+                                            <div class="bg-light py-2 px-2 text-center rounded-pill">
+                                                <p class="mb-0">Fast Food</p>
+                                            </div>
+                                            <div class="bg-light py-2 px-3 text-center rounded-pill">
+                                                <p class="mb-0">Deserts</p>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex mt-3">
+                                            <p class="px-2 border-2 border-end text-success fs-7 fw-medium">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                    fill="#32a862" class="bi bi-star-fill mb-1" viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                                </svg> <span class="rating">4.3</span>
+                                            </p>
+                                            <p class="px-2 border-2 border-end text-dark fs-7 fw-medium">3.9 Kms</p>
+                                            <p class="px-2 text-dark fs-7 fw-medium">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                    fill="#32a862" class="bi bi-truck mb-1" viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5zm1.294 7.456A2 2 0 0 1 4.732 11h5.536a2 2 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456M12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2" />
+                                                </svg> <span class="rating">KWD 20</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <div class="card card_radius pb-0 me-3 mb-3">
+                                    <div class="image-container">
+                                        <img src="./img/Quick-2.jpeg" alt="Burger"
+                                            class="w-100 card_radius_img img-hover-zoom" />
+                                        <div class="wishlist">
+                                            <a href="#">
+                                                <div class="text-center cicle_heart bg-light rounded-circle pt-1">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                                        fill="#000" class="bi bi-heart" viewBox="0 0 16 16">
+                                                        <path
+                                                            d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15" />
+                                                    </svg>
+                                                </div>
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Mcdonals's</h5>
+                                        <div
+                                            class="d-flex justify-content-between align-items-start fs-8 fw-medium category">
+                                            <div class="bg-light py-2 px-3 text-center rounded-pill">
+                                                <p class="mb-0">North Indian</p>
+                                            </div>
+                                            <div class="bg-light py-2 px-2 text-center rounded-pill">
+                                                <p class="mb-0">Fast Food</p>
+                                            </div>
+                                            <div class="bg-light py-2 px-3 text-center rounded-pill">
+                                                <p class="mb-0">Deserts</p>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex mt-3">
+                                            <p class="px-2 border-2 border-end text-success fs-7 fw-medium">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                    fill="#32a862" class="bi bi-star-fill mb-1" viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                                </svg> <span class="rating">4.3</span>
+                                            </p>
+                                            <p class="px-2 border-2 border-end text-dark fs-7 fw-medium">3.9 Kms</p>
+                                            <p class="px-2 text-dark fs-7 fw-medium">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                    fill="#32a862" class="bi bi-truck mb-1" viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5zm1.294 7.456A2 2 0 0 1 4.732 11h5.536a2 2 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456M12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2" />
+                                                </svg> <span class="rating">KWD 20</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="carousel-item">
+                                <div class="card card_radius pb-0 me-3 mb-3">
+                                    <div class="image-container">
+                                        <img src="./img/Quick-4.jpeg" alt="Burger"
+                                            class="w-100 card_radius_img img-hover-zoom" />
+                                        <div class="wishlist">
+                                            <a href="#">
+                                                <div class="text-center cicle_heart bg-light rounded-circle pt-1">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                                        fill="#000" class="bi bi-heart" viewBox="0 0 16 16">
+                                                        <path
+                                                            d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15" />
+                                                    </svg>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Mcdonals's</h5>
+                                        <div
+                                            class="d-flex justify-content-between align-items-start fs-8 fw-medium category">
+                                            <div class="bg-light py-2 px-3 text-center rounded-pill">
+                                                <p class="mb-0">North Indian</p>
+                                            </div>
+                                            <div class="bg-light py-2 px-2 text-center rounded-pill">
+                                                <p class="mb-0">Fast Food</p>
+                                            </div>
+                                            <div class="bg-light py-2 px-3 text-center rounded-pill">
+                                                <p class="mb-0">Deserts</p>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex mt-3">
+                                            <p class="px-2 border-2 border-end text-success fs-7 fw-medium">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                    fill="#32a862" class="bi bi-star-fill mb-1" viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                                </svg> <span class="rating">4.3</span>
+                                            </p>
+                                            <p class="px-2 border-2 border-end text-dark fs-7 fw-medium">3.9 Kms</p>
+                                            <p class="px-2 text-dark fs-7 fw-medium">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                    fill="#32a862" class="bi bi-truck mb-1" viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5zm1.294 7.456A2 2 0 0 1 4.732 11h5.536a2 2 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456M12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2" />
+                                                </svg> <span class="rating">KWD 20</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <div class="card card_radius pb-0 me-3 mb-3">
+                                    <div class="image-container">
+                                        <div class="mask position-absolute card_btn_position z-1">
+                                            <div class="d-flex justify-content-start align-items-end">
+                                                <p><span
+                                                        class="badge bg-danger fs-7 fw-normal p-2 m-1 rounded-pill">Exclusive</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <img src="./img/Quick-3.jpeg" alt="Burger"
+                                            class="w-100 card_radius_img img-hover-zoom" />
+                                        <div class="wishlist">
+                                            <a href="#">
+                                                <div class="text-center cicle_heart bg-light rounded-circle pt-1">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                                        fill="#000" class="bi bi-heart" viewBox="0 0 16 16">
+                                                        <path
+                                                            d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15" />
+                                                    </svg>
+                                                </div>
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Mcdonals's</h5>
+                                        <div
+                                            class="d-flex justify-content-between align-items-start fs-8 fw-medium category">
+                                            <div class="bg-light py-2 px-3 text-center rounded-pill">
+                                                <p class="mb-0">North Indian</p>
+                                            </div>
+                                            <div class="bg-light py-2 px-2 text-center rounded-pill">
+                                                <p class="mb-0">Fast Food</p>
+                                            </div>
+                                            <div class="bg-light py-2 px-3 text-center rounded-pill">
+                                                <p class="mb-0">Deserts</p>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex mt-3">
+                                            <p class="px-2 border-2 border-end text-success fs-7 fw-medium">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                    fill="#32a862" class="bi bi-star-fill mb-1" viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                                </svg> <span class="rating">4.3</span>
+                                            </p>
+                                            <p class="px-2 border-2 border-end text-dark fs-7 fw-medium">3.9 Kms</p>
+                                            <p class="px-2 text-dark fs-7 fw-medium">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                    fill="#32a862" class="bi bi-truck mb-1" viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5zm1.294 7.456A2 2 0 0 1 4.732 11h5.536a2 2 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456M12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2" />
+                                                </svg> <span class="rating">KWD 20</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <div class="card card_radius pb-0 me-3">
+                                    <div class="image-container">
+                                        <div class="mask position-absolute card_btn_position z-1">
+                                            <div class="d-flex justify-content-start align-items-end">
+                                                <p><span
+                                                        class="badge bg-danger fs-7 fw-normal p-2 m-1 rounded-pill">Exclusive</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        <img src="./img/spot_light-2.jpeg" alt="Burger"
+                                            class="w-100 card_radius_img img-hover-zoom" />
+                                        <div class="wishlist">
+                                            <a href="#">
+                                                <div class="text-center cicle_heart bg-light rounded-circle pt-1">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                                        fill="#000" class="bi bi-heart" viewBox="0 0 16 16">
+                                                        <path
+                                                            d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15" />
+                                                    </svg>
+                                                </div>
+                                            </a>
+
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Mcdonals's</h5>
+                                        <div
+                                            class="d-flex justify-content-between align-items-start fs-8 fw-medium category">
+                                            <div class="bg-light py-2 px-3 text-center rounded-pill">
+                                                <p class="mb-0">North Indian</p>
+                                            </div>
+                                            <div class="bg-light py-2 px-2 text-center rounded-pill">
+                                                <p class="mb-0">Fast Food</p>
+                                            </div>
+                                            <div class="bg-light py-2 px-3 text-center rounded-pill">
+                                                <p class="mb-0">Deserts</p>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex mt-3">
+                                            <p class="px-2 border-2 border-end text-success fs-7 fw-medium">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                    fill="#32a862" class="bi bi-star-fill mb-1" viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                                </svg> <span class="rating">4.3</span>
+                                            </p>
+                                            <p class="px-2 border-2 border-end text-dark fs-7 fw-medium">3.9 Kms</p>
+                                            <p class="px-2 text-dark fs-7 fw-medium">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                    fill="#32a862" class="bi bi-truck mb-1" viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5zm1.294 7.456A2 2 0 0 1 4.732 11h5.536a2 2 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456M12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2" />
+                                                </svg> <span class="rating">KWD 20</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="carousel-item">
+                                <div class="card card_radius pb-0 me-3 mb-3">
+                                    <div class="image-container">
+                                        <img src="./img/Quick-4.jpeg" alt="Burger"
+                                            class="w-100 card_radius_img img-hover-zoom" />
+                                        <div class="wishlist">
+                                            <a href="#">
+                                                <div class="text-center cicle_heart bg-light rounded-circle pt-1">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                                        fill="#000" class="bi bi-heart" viewBox="0 0 16 16">
+                                                        <path
+                                                            d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15" />
+                                                    </svg>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="card-body">
+                                        <h5 class="card-title">Mcdonals's</h5>
+                                        <div
+                                            class="d-flex justify-content-between align-items-start fs-8 fw-medium category">
+                                            <div class="bg-light py-2 px-3 text-center rounded-pill">
+                                                <p class="mb-0">North Indian</p>
+                                            </div>
+                                            <div class="bg-light py-2 px-2 text-center rounded-pill">
+                                                <p class="mb-0">Fast Food</p>
+                                            </div>
+                                            <div class="bg-light py-2 px-3 text-center rounded-pill">
+                                                <p class="mb-0">Deserts</p>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex mt-3">
+                                            <p class="px-2 border-2 border-end text-success fs-7 fw-medium">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                    fill="#32a862" class="bi bi-star-fill mb-1" viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                                </svg> <span class="rating">4.3</span>
+                                            </p>
+                                            <p class="px-2 border-2 border-end text-dark fs-7 fw-medium">3.9 Kms</p>
+                                            <p class="px-2 text-dark fs-7 fw-medium">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                                                    fill="#32a862" class="bi bi-truck mb-1" viewBox="0 0 16 16">
+                                                    <path
+                                                        d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5zm1.294 7.456A2 2 0 0 1 4.732 11h5.536a2 2 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456M12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2" />
+                                                </svg> <span class="rating">KWD 20</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!--    Quick pickup section ended here -->
+
+
+    <!-- All Store section started Here -->
+    <section class="all_store">
+        <div class="all-heading py-2 my-4">
+            <div class="container">
+                <h3 class="text-uppercase mt-2 fs-3 mb-3 text-dark">All stores</h3>
+            </div>
+        </div>
+        <div class="container my-3">
+            <div class="row">
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 mb-4">
+                    <div class="card card_radius pb-0">
+                        <div class="image-container">
+                            <img src="./img/burger.jpeg" alt="Burger" class="w-100 card_radius_img img-hover-zoom" />
+                            <div class="wishlist">
+                                <a href="#">
+                                    <div class="text-center cicle_heart bg-light rounded-circle pt-1">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#000"
+                                            class="bi bi-heart" viewBox="0 0 16 16">
+                                            <path
+                                                d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15" />
+                                        </svg>
+                                    </div>
+                                </a>
+
+                            </div>
+                        </div>
+                        <div class="card-body">
+
+                            <h5 class="card-title">Mcdonals's</h5>
+                            <div class="d-flex justify-content-between align-items-start fs-8 fw-medium category">
+                                <div class="bg-light py-2 px-3 text-center rounded-pill">
+                                    <p class="mb-0">North Indian</p>
+                                </div>
+                                <div class="bg-light py-2 px-2 text-center rounded-pill">
+                                    <p class="mb-0">Fast Food</p>
+                                </div>
+                                <div class="bg-light py-2 px-3 text-center rounded-pill">
+                                    <p class="mb-0">Deserts</p>
+                                </div>
+                            </div>
+                            <div class="d-flex mt-3">
+                                <p class="px-2 border-2 border-end text-success fs-7 fw-medium">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#32a862"
+                                        class="bi bi-star-fill mb-1" viewBox="0 0 16 16">
+                                        <path
+                                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                    </svg> <span class="rating">4.3</span>
+                                </p>
+                                <p class="px-2 border-2 border-end text-dark fs-7 fw-medium">3.9 Kms</p>
+                                <p class="px-2 text-dark fs-7 fw-medium">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#32a862"
+                                        class="bi bi-truck" viewBox="0 0 16 16">
+                                        <path
+                                            d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5zm1.294 7.456A2 2 0 0 1 4.732 11h5.536a2 2 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456M12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2" />
+                                    </svg> <span class="rating">KWD 20</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 mb-4">
+                    <div class="card card_radius pb-0">
+                        <div class="image-container">
+                            <img src="./img/food-5.jpeg" alt="Burger" class="w-100 card_radius_img img-hover-zoom" />
+                            <div class="wishlist">
+                                <a href="#">
+                                    <div class="text-center cicle_heart bg-light rounded-circle pt-1">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#000"
+                                            class="bi bi-heart" viewBox="0 0 16 16">
+                                            <path
+                                                d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15" />
+                                        </svg>
+                                    </div>
+                                </a>
+
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Mcdonals's</h5>
+                            <div class="d-flex justify-content-between align-items-start fs-8 fw-medium category">
+                                <div class="bg-light py-2 px-3 text-center rounded-pill">
+                                    <p class="mb-0">North Indian</p>
+                                </div>
+                                <div class="bg-light py-2 px-2 text-center rounded-pill">
+                                    <p class="mb-0">Fast Food</p>
+                                </div>
+                                <div class="bg-light py-2 px-3 text-center rounded-pill">
+                                    <p class="mb-0">Deserts</p>
+                                </div>
+                            </div>
+                            <div class="d-flex mt-3">
+                                <p class="px-2 border-2 border-end text-success fs-7 fw-medium">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#32a862"
+                                        class="bi bi-star-fill mb-1" viewBox="0 0 16 16">
+                                        <path
+                                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                    </svg> <span class="rating">4.3</span>
+                                </p>
+                                <p class="px-2 border-2 border-end text-dark fs-7 fw-medium">3.9 Kms</p>
+                                <p class="px-2 text-dark fs-7 fw-medium">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#32a862"
+                                        class="bi bi-truck mb-1" viewBox="0 0 16 16">
+                                        <path
+                                            d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5zm1.294 7.456A2 2 0 0 1 4.732 11h5.536a2 2 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456M12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2" />
+                                    </svg> <span class="rating">KWD 20</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 mb-4">
+                    <div class="card card_radius pb-0">
+                        <div class="image-container">
+                            <img src="./img/food-3.jpeg" alt="Burger" class="w-100 card_radius_img img-hover-zoom" />
+                            <div class="wishlist">
+                                <a href="#">
+                                    <div class="text-center cicle_heart bg-light rounded-circle pt-1">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#000"
+                                            class="bi bi-heart" viewBox="0 0 16 16">
+                                            <path
+                                                d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15" />
+                                        </svg>
+                                    </div>
+                                </a>
+
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Mcdonals's</h5>
+                            <div class="d-flex justify-content-between align-items-start fs-8 fw-medium category">
+                                <div class="bg-light py-2 px-3 text-center rounded-pill">
+                                    <p class="mb-0">North Indian</p>
+                                </div>
+                                <div class="bg-light py-2 px-2 text-center rounded-pill">
+                                    <p class="mb-0">Fast Food</p>
+                                </div>
+                                <div class="bg-light py-2 px-3 text-center rounded-pill">
+                                    <p class="mb-0">Deserts</p>
+                                </div>
+                            </div>
+                            <div class="d-flex mt-3">
+                                <p class="px-2 border-2 border-end text-success fs-7 fw-medium">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#32a862"
+                                        class="bi bi-star-fill mb-1" viewBox="0 0 16 16">
+                                        <path
+                                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                    </svg> <span class="rating">4.3</span>
+                                </p>
+                                <p class="px-2 border-2 border-end text-dark fs-7 fw-medium">3.9 Kms</p>
+                                <p class="px-2 text-dark fs-7 fw-medium">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#32a862"
+                                        class="bi bi-truck mb-1" viewBox="0 0 16 16">
+                                        <path
+                                            d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5zm1.294 7.456A2 2 0 0 1 4.732 11h5.536a2 2 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456M12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2" />
+                                    </svg> <span class="rating">KWD 20</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 mb-4">
+                    <div class="card card_radius pb-0">
+                        <div class="image-container">
+                            <div class="mask position-absolute card_btn_position z-1">
+                                <div class="d-flex justify-content-start align-items-end">
+                                    <p><span
+                                            class="badge bg-danger fs-7 fw-normal p-2 m-1 rounded-pill">Exclusive</span>
+                                    </p>
+                                </div>
+                            </div>
+                            <img src="./img/food-4.jpeg" alt="Burger" class="w-100 card_radius_img img-hover-zoom" />
+                            <div class="wishlist">
+                                <a href="#">
+                                    <div class="text-center cicle_heart bg-light rounded-circle pt-1">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#000"
+                                            class="bi bi-heart" viewBox="0 0 16 16">
+                                            <path
+                                                d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15" />
+                                        </svg>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Mcdonals's</h5>
+                            <div class="d-flex justify-content-between align-items-start fs-8 fw-medium category">
+                                <div class="bg-light py-2 px-3 text-center rounded-pill">
+                                    <p class="mb-0">North Indian</p>
+                                </div>
+                                <div class="bg-light py-2 px-2 text-center rounded-pill">
+                                    <p class="mb-0">Fast Food</p>
+                                </div>
+                                <div class="bg-light py-2 px-3 text-center rounded-pill">
+                                    <p class="mb-0">Deserts</p>
+                                </div>
+                            </div>
+                            <div class="d-flex mt-3">
+                                <p class="px-2 border-2 border-end text-success fs-7 fw-medium">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#32a862"
+                                        class="bi bi-star-fill mb-1" viewBox="0 0 16 16">
+                                        <path
+                                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                    </svg> <span class="rating">4.3</span>
+                                </p>
+                                <p class="px-2 border-2 border-end text-dark fs-7 fw-medium">3.9 Kms</p>
+                                <p class="px-2 text-dark fs-7 fw-medium">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#32a862"
+                                        class="bi bi-truck mb-1" viewBox="0 0 16 16">
+                                        <path
+                                            d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5zm1.294 7.456A2 2 0 0 1 4.732 11h5.536a2 2 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456M12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2" />
+                                    </svg> <span class="rating">KWD 20</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 mb-4">
+                    <div class="card card_radius pb-0">
+                        <div class="image-container">
+                            <img src="./img/Quick-1.jpeg" alt="Burger" class="w-100 card_radius_img img-hover-zoom" />
+                            <div class="wishlist">
+                                <a href="#">
+                                    <div class="text-center cicle_heart bg-light rounded-circle pt-1">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#000"
+                                            class="bi bi-heart" viewBox="0 0 16 16">
+                                            <path
+                                                d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15" />
+                                        </svg>
+                                    </div>
+                                </a>
+
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Mcdonals's</h5>
+                            <div class="d-flex justify-content-between align-items-start fs-8 fw-medium category">
+                                <div class="bg-light py-2 px-3 text-center rounded-pill">
+                                    <p class="mb-0">North Indian</p>
+                                </div>
+                                <div class="bg-light py-2 px-2 text-center rounded-pill">
+                                    <p class="mb-0">Fast Food</p>
+                                </div>
+                                <div class="bg-light py-2 px-3 text-center rounded-pill">
+                                    <p class="mb-0">Deserts</p>
+                                </div>
+                            </div>
+                            <div class="d-flex mt-3">
+                                <p class="px-2 border-2 border-end text-success fs-7 fw-medium">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#32a862"
+                                        class="bi bi-star-fill mb-1" viewBox="0 0 16 16">
+                                        <path
+                                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                    </svg> <span class="rating">4.3</span>
+                                </p>
+                                <p class="px-2 border-2 border-end text-dark fs-7 fw-medium">3.9 Kms</p>
+                                <p class="px-2 text-dark fs-7 fw-medium">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#32a862"
+                                        class="bi bi-truck mb-1" viewBox="0 0 16 16">
+                                        <path
+                                            d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5zm1.294 7.456A2 2 0 0 1 4.732 11h5.536a2 2 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456M12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2" />
+                                    </svg> <span class="rating">KWD 20</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 mb-4">
+                    <div class="card card_radius pb-0">
+                        <div class="image-container">
+                            <img src="./img/Quick-2.jpeg" alt="Burger" class="w-100 card_radius_img img-hover-zoom" />
+                            <div class="wishlist">
+                                <a href="#">
+                                    <div class="text-center cicle_heart bg-light rounded-circle pt-1">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#000"
+                                            class="bi bi-heart" viewBox="0 0 16 16">
+                                            <path
+                                                d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15" />
+                                        </svg>
+                                    </div>
+                                </a>
+
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Mcdonals's</h5>
+                            <div class="d-flex justify-content-between align-items-start fs-8 fw-medium category">
+                                <div class="bg-light py-2 px-3 text-center rounded-pill">
+                                    <p class="mb-0">North Indian</p>
+                                </div>
+                                <div class="bg-light py-2 px-2 text-center rounded-pill">
+                                    <p class="mb-0">Fast Food</p>
+                                </div>
+                                <div class="bg-light py-2 px-3 text-center rounded-pill">
+                                    <p class="mb-0">Deserts</p>
+                                </div>
+                            </div>
+                            <div class="d-flex mt-3">
+                                <p class="px-2 border-2 border-end text-success fs-7 fw-medium">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#32a862"
+                                        class="bi bi-star-fill mb-1" viewBox="0 0 16 16">
+                                        <path
+                                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                    </svg> <span class="rating">4.3</span>
+                                </p>
+                                <p class="px-2 border-2 border-end text-dark fs-7 fw-medium">3.9 Kms</p>
+                                <p class="px-2 text-dark fs-7 fw-medium">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#32a862"
+                                        class="bi bi-truck mb-1" viewBox="0 0 16 16">
+                                        <path
+                                            d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5zm1.294 7.456A2 2 0 0 1 4.732 11h5.536a2 2 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456M12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2" />
+                                    </svg> <span class="rating">KWD 20</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 mb-4">
+                    <div class="card card_radius pb-0">
+                        <div class="image-container">
+                            <img src="./img/Quick-4.jpeg" alt="Burger" class="w-100 card_radius_img img-hover-zoom" />
+                            <div class="wishlist">
+                                <a href="#">
+                                    <div class="text-center cicle_heart bg-light rounded-circle pt-1">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#000"
+                                            class="bi bi-heart" viewBox="0 0 16 16">
+                                            <path
+                                                d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15" />
+                                        </svg>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Mcdonals's</h5>
+                            <div class="d-flex justify-content-between align-items-start fs-8 fw-medium category">
+                                <div class="bg-light py-2 px-3 text-center rounded-pill">
+                                    <p class="mb-0">North Indian</p>
+                                </div>
+                                <div class="bg-light py-2 px-2 text-center rounded-pill">
+                                    <p class="mb-0">Fast Food</p>
+                                </div>
+                                <div class="bg-light py-2 px-3 text-center rounded-pill">
+                                    <p class="mb-0">Deserts</p>
+                                </div>
+                            </div>
+                            <div class="d-flex mt-3">
+                                <p class="px-2 border-2 border-end text-success fs-7 fw-medium">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#32a862"
+                                        class="bi bi-star-fill mb-1" viewBox="0 0 16 16">
+                                        <path
+                                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                    </svg> <span class="rating">4.3</span>
+                                </p>
+                                <p class="px-2 border-2 border-end text-dark fs-7 fw-medium">3.9 Kms</p>
+                                <p class="px-2 text-dark fs-7 fw-medium">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#32a862"
+                                        class="bi bi-truck mb-1" viewBox="0 0 16 16">
+                                        <path
+                                            d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5zm1.294 7.456A2 2 0 0 1 4.732 11h5.536a2 2 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456M12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2" />
+                                    </svg> <span class="rating">KWD 20</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-3   col-md-6  col-sm-6   mb-4">
+                    <div class="card card_radius pb-0">
+                        <div class="image-container">
+                            <div class="mask position-absolute card_btn_position z-1">
+                                <div class="d-flex justify-content-start align-items-end">
+                                    <p><span
+                                            class="badge bg-danger fs-7 fw-normal p-2 m-1 rounded-pill">Exclusive</span>
+                                    </p>
+                                </div>
+                            </div>
+                            <img src="./img/Quick-3.jpeg" alt="Burger" class="w-100 card_radius_img img-hover-zoom" />
+                            <div class="wishlist">
+                                <a href="#">
+                                    <div class="text-center cicle_heart bg-light rounded-circle pt-1">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#000"
+                                            class="bi bi-heart" viewBox="0 0 16 16">
+                                            <path
+                                                d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15" />
+                                        </svg>
+                                    </div>
+                                </a>
+
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Mcdonals's</h5>
+                            <div class="d-flex justify-content-between align-items-start fs-8 fw-medium category">
+                                <div class="bg-light py-2 px-3 text-center rounded-pill">
+                                    <p class="mb-0">North Indian</p>
+                                </div>
+                                <div class="bg-light py-2 px-2 text-center rounded-pill">
+                                    <p class="mb-0">Fast Food</p>
+                                </div>
+                                <div class="bg-light py-2 px-3 text-center rounded-pill">
+                                    <p class="mb-0">Deserts</p>
+                                </div>
+                            </div>
+                            <div class="d-flex mt-3">
+                                <p class="px-2 border-2 border-end text-success fs-7 fw-medium">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#32a862"
+                                        class="bi bi-star-fill mb-1" viewBox="0 0 16 16">
+                                        <path
+                                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                    </svg> <span class="rating">4.3</span>
+                                </p>
+                                <p class="px-2 border-2 border-end text-dark fs-7 fw-medium">3.9 Kms</p>
+                                <p class="px-2 text-dark fs-7 fw-medium">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#32a862"
+                                        class="bi bi-truck mb-1" viewBox="0 0 16 16">
+                                        <path
+                                            d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5zm1.294 7.456A2 2 0 0 1 4.732 11h5.536a2 2 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456M12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2" />
+                                    </svg> <span class="rating">KWD 20</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 mb-4">
+                    <div class="card card_radius pb-0">
+                        <div class="image-container">
+                            <div class="mask position-absolute card_btn_position z-1">
+                                <div class="d-flex justify-content-start align-items-end">
+                                    <p><span
+                                            class="badge bg-danger fs-7 fw-normal p-2 m-1 rounded-pill">Exclusive</span>
+                                    </p>
+                                </div>
+                            </div>
+                            <img src="./img/spot_light-1.jpeg" alt="Burger"
+                                class="w-100 card_radius_img img-hover-zoom" />
+                            <div class="wishlist">
+                                <a href="#">
+                                    <div class="text-center cicle_heart bg-light rounded-circle pt-1">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#000"
+                                            class="bi bi-heart" viewBox="0 0 16 16">
+                                            <path
+                                                d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15" />
+                                        </svg>
+                                    </div>
+                                </a>
+
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Mcdonals's</h5>
+                            <div class="d-flex justify-content-between align-items-start fs-8 fw-medium category">
+                                <div class="bg-light py-2 px-3 text-center rounded-pill">
+                                    <p class="mb-0">North Indian</p>
+                                </div>
+                                <div class="bg-light py-2 px-2 text-center rounded-pill">
+                                    <p class="mb-0">Fast Food</p>
+                                </div>
+                                <div class="bg-light py-2 px-3 text-center rounded-pill">
+                                    <p class="mb-0">Deserts</p>
+                                </div>
+                            </div>
+                            <div class="d-flex mt-3">
+                                <p class="px-2 border-2 border-end text-success fs-7 fw-medium">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#32a862"
+                                        class="bi bi-star-fill mb-1" viewBox="0 0 16 16">
+                                        <path
+                                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                    </svg> <span class="rating">4.3</span>
+                                </p>
+                                <p class="px-2 border-2 border-end text-dark fs-7 fw-medium">3.9 Kms</p>
+                                <p class="px-2 text-dark fs-7 fw-medium">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#32a862"
+                                        class="bi bi-truck mb-1" viewBox="0 0 16 16">
+                                        <path
+                                            d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5zm1.294 7.456A2 2 0 0 1 4.732 11h5.536a2 2 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456M12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2" />
+                                    </svg> <span class="rating">KWD 20</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 mb-4">
+                    <div class="card card_radius pb-0">
+                        <div class="image-container">
+                            <div class="mask position-absolute card_btn_position z-1">
+                                <div class="d-flex justify-content-start align-items-end">
+                                    <p><span
+                                            class="badge bg-danger fs-7 fw-normal p-2 m-1 rounded-pill">Exclusive</span>
+                                    </p>
+                                </div>
+                            </div>
+                            <img src="./img/spot_light-2.jpeg" alt="Burger"
+                                class="w-100 card_radius_img img-hover-zoom" />
+                            <div class="wishlist">
+                                <a href="#">
+                                    <div class="text-center cicle_heart bg-light rounded-circle pt-1">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#000"
+                                            class="bi bi-heart" viewBox="0 0 16 16">
+                                            <path
+                                                d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15" />
+                                        </svg>
+                                    </div>
+                                </a>
+
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Mcdonals's</h5>
+                            <div class="d-flex justify-content-between align-items-start fs-8 fw-medium category">
+                                <div class="bg-light py-2 px-3 text-center rounded-pill">
+                                    <p class="mb-0">North Indian</p>
+                                </div>
+                                <div class="bg-light py-2 px-2 text-center rounded-pill">
+                                    <p class="mb-0">Fast Food</p>
+                                </div>
+                                <div class="bg-light py-2 px-3 text-center rounded-pill">
+                                    <p class="mb-0">Deserts</p>
+                                </div>
+                            </div>
+                            <div class="d-flex mt-3">
+                                <p class="px-2 border-2 border-end text-success fs-7 fw-medium">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#32a862"
+                                        class="bi bi-star-fill mb-1" viewBox="0 0 16 16">
+                                        <path
+                                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                    </svg> <span class="rating">4.3</span>
+                                </p>
+                                <p class="px-2 border-2 border-end text-dark fs-7 fw-medium">3.9 Kms</p>
+                                <p class="px-2 text-dark fs-7 fw-medium">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#32a862"
+                                        class="bi bi-truck mb-1" viewBox="0 0 16 16">
+                                        <path
+                                            d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5zm1.294 7.456A2 2 0 0 1 4.732 11h5.536a2 2 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456M12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2" />
+                                    </svg> <span class="rating">KWD 20</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 mb-4">
+                    <div class="card card_radius pb-0">
+                        <div class="image-container">
+                            <div class="mask position-absolute card_btn_position z-1">
+                                <div class="d-flex justify-content-start align-items-end">
+                                    <p><span
+                                            class="badge bg-danger fs-7 fw-normal p-2 m-1 rounded-pill">Exclusive</span>
+                                    </p>
+                                </div>
+                            </div>
+                            <img src="./img/spot_light-3.jpeg" alt="Burger"
+                                class="w-100 card_radius_img img-hover-zoom" />
+                            <div class="wishlist">
+                                <a href="#">
+                                    <div class="text-center cicle_heart bg-light rounded-circle pt-1">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#000"
+                                            class="bi bi-heart" viewBox="0 0 16 16">
+                                            <path
+                                                d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15" />
+                                        </svg>
+                                    </div>
+                                </a>
+
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Mcdonals's</h5>
+                            <div class="d-flex justify-content-between align-items-start fs-8 fw-medium category">
+                                <div class="bg-light py-2 px-3 text-center rounded-pill">
+                                    <p class="mb-0">North Indian</p>
+                                </div>
+                                <div class="bg-light py-2 px-2 text-center rounded-pill">
+                                    <p class="mb-0">Fast Food</p>
+                                </div>
+                                <div class="bg-light py-2 px-3 text-center rounded-pill">
+                                    <p class="mb-0">Deserts</p>
+                                </div>
+                            </div>
+                            <div class="d-flex mt-3">
+                                <p class="px-2 border-2 border-end text-success fs-7 fw-medium">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#32a862"
+                                        class="bi bi-star-fill mb-1" viewBox="0 0 16 16">
+                                        <path
+                                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                    </svg> <span class="rating">4.3</span>
+                                </p>
+                                <p class="px-2 border-2 border-end text-dark fs-7 fw-medium">3.9 Kms</p>
+                                <p class="px-2 text-dark fs-7 fw-medium">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#32a862"
+                                        class="bi bi-truck mb-1" viewBox="0 0 16 16">
+                                        <path
+                                            d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5zm1.294 7.456A2 2 0 0 1 4.732 11h5.536a2 2 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456M12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2" />
+                                    </svg> <span class="rating">KWD 20</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 mb-4">
+                    <div class="card card_radius pb-0">
+                        <div class="image-container">
+                            <div class="mask position-absolute card_btn_position z-1">
+                                <div class="d-flex justify-content-start align-items-end">
+                                    <p><span
+                                            class="badge bg-danger fs-7 fw-normal p-2 m-1 rounded-pill">Exclusive</span>
+                                    </p>
+                                </div>
+                            </div>
+                            <img src="./img/spot_light-4.jpeg" alt="Burger"
+                                class="w-100 card_radius_img img-hover-zoom" />
+                            <div class="wishlist">
+                                <a href="#">
+                                    <div class="text-center cicle_heart bg-light rounded-circle pt-1">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="#000"
+                                            class="bi bi-heart" viewBox="0 0 16 16">
+                                            <path
+                                                d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143q.09.083.176.171a3 3 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15" />
+                                        </svg>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-body">
+
+                            <h5 class="card-title">Mcdonals's</h5>
+                            <div class="d-flex justify-content-between align-items-start fs-8 fw-medium category">
+                                <div class="bg-light py-2 px-3 text-center rounded-pill">
+                                    <p class="mb-0">North Indian</p>
+                                </div>
+                                <div class="bg-light py-2 px-2 text-center rounded-pill">
+                                    <p class="mb-0">Fast Food</p>
+                                </div>
+                                <div class="bg-light py-2 px-3 text-center rounded-pill">
+                                    <p class="mb-0">Deserts</p>
+                                </div>
+                            </div>
+                            <div class="d-flex mt-3">
+                                <p class="px-2 border-2 border-end text-success fs-7 fw-medium">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#32a862"
+                                        class="bi bi-star-fill mb-1" viewBox="0 0 16 16">
+                                        <path
+                                            d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                                    </svg> <span class="rating">4.3</span>
+                                </p>
+                                <p class="px-2 border-2 border-end text-dark fs-7 fw-medium">3.9 Kms</p>
+                                <p class="px-2 text-dark fs-7 fw-medium">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#32a862"
+                                        class="bi bi-truck mb-1" viewBox="0 0 16 16">
+                                        <path
+                                            d="M0 3.5A1.5 1.5 0 0 1 1.5 2h9A1.5 1.5 0 0 1 12 3.5V5h1.02a1.5 1.5 0 0 1 1.17.563l1.481 1.85a1.5 1.5 0 0 1 .329.938V10.5a1.5 1.5 0 0 1-1.5 1.5H14a2 2 0 1 1-4 0H5a2 2 0 1 1-3.998-.085A1.5 1.5 0 0 1 0 10.5zm1.294 7.456A2 2 0 0 1 4.732 11h5.536a2 2 0 0 1 .732-.732V3.5a.5.5 0 0 0-.5-.5h-9a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .294.456M12 10a2 2 0 0 1 1.732 1h.768a.5.5 0 0 0 .5-.5V8.35a.5.5 0 0 0-.11-.312l-1.48-1.85A.5.5 0 0 0 13.02 6H12zm-9 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m9 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2" />
+                                    </svg> <span class="rating">KWD 20</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- All Store section Ended Here -->
+
+
+    <!-- Footer Section Started here -->
+
+    <footer class="footer text-center text-lg-start">
+        <div class="container p-3">
+            <div class="row mt-4">
+                <div class="col-lg-3 col-md-6 mb-2">
+                    <div class="company_name d-flex mb-2">
+                        <img src="img/company_logo_2x.png" alt="logo" class="flogo" />
+                        <h5 class="fs-2 fw-bold text-light text-uppercase">Curve</h5>
+                    </div>
+                    <div class="description fs-7 fw-normal link_color">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae ipsa impedit libero rerum ipsum,
+                        quisquam ducimus quia consequuntur est ad ea laborum aperiam in error consectetur facilis fuga
+                        repellendus nulla.
+                    </div>
+
+                    <ul class="list-unstyled mb-0 my-3">
+                        <li>
+                            <a href="#!" class="d-flex text-decoration-none">
+                                <div
+                                    class="px-x py-2 me-2 text-center align-items-center bg-success-subtle rounded-circle logo_cicle">
+                                    <img src="img/email.png" width="14px" class="cicle_flogo" />
+                                </div>
+
+                                <p class="fs-6 fw-normal link_color">
+                                    Curve27678@gmail.com
+                                </p>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#!" class="d-flex text-decoration-none">
+                                <div
+                                    class="px-x py-2 me-2 text-center align-items-center bg-success-subtle rounded-circle logo_cicle">
+                                    <img src="img/phone-call.png" width="14px" class="cicle_flogo" />
+                                </div>
+
+                                <p class="fs-7 fw-normal link_color">
+                                    +91-8988-832-585, +91-8383-256-876
+                                </p>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-2">
+                    <h5 class="text-light fs-3 mb-3">Get to know us</h5>
+
+                    <ul class="list-unstyled">
+                        <li>
+                            <a href="#!" class="text-decoration-none link_color">Terms & Conditions</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="text-decoration-none link_color">Privacy Policy</a>
+                        </li>
+                        <li>
+                            <a class="text-decoration-none link_color" href="#">About us</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-2">
+                    <h5 class="text-light fs-3 mb-3">Help</h5>
+
+                    <ul class="list-unstyled mb-0">
+                        <li>
+                            <a href="#" class=" link_color text-decoration-none">FAQ'S</a>
+                        </li>
+                        <li>
+                            <a href="#" class="text-decoration-none link_color">Contact us</a>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-2">
+                    <h5 class="text-light fs-3 mb-3">Download Apps</h5>
+
+                    <ul class="list-unstyled">
+                        <li class="my-3">
+                            <a href="#" class="">
+                                <img src="img/appstore.png" alt="logo" width="150px">
+                            </a>
+                        </li>
+                        <li class="my-3">
+                            <a href="#" class="">
+                                <img src="img/playstore.png" alt="logo" width="150px">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <hr />
+
+        <div class="text-center copy_color p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+            © 2024 Curve - All rights reserved.
+        </div>
+    </footer>
+
+    <!-- Footer Section Ended here -->
+
+
+
+    <!-- two card slider js started here   -->
+
+    <script>
+
+        var slideIndex = 1;
+        showDivs(slideIndex);
+
+        function plusDivs(n) {
+            showDivs(slideIndex += n);
+        }
+
+
+        function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            if (n > x.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = x.length }
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            x[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+
+
+    </script>
+    <!-- two card slider js Ended here   -->
+    <script type="text/javascript" src="jquery-3.7.1.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
